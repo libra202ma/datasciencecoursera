@@ -1,6 +1,6 @@
 Code Book
 ==========
-* This code book is modified based on the "features.txt" and "features_info.txt" files that were given with the assignment.
+## This code book is modified based on the "features.txt" and "features_info.txt" files that were given with the assignment.
 
 ## Activity
 * The activity the person is performing while taking the measurements. No units.
@@ -9,7 +9,9 @@ Code Book
 * The ID of the person who is performing the activity. This ID number ranges from 1 to 30. No units.
 
 ## The calculated mean of the folowing features:
-*The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+*The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
@@ -73,18 +75,30 @@ iqr(): Interquartile range
 entropy(): Signal entropy
 
 arCoeff(): Autorregresion coefficients with Burg order equal to 4
+
 correlation(): correlation coefficient between two signals
+
 maxInds(): index of the frequency component with largest magnitude
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
 skewness(): skewness of the frequency domain signal 
+
 kurtosis(): kurtosis of the frequency domain signal 
+
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+
 angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean
+
